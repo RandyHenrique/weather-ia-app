@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Clima IA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Previsão do Tempo</h1>
+        <div class="search-box">
+            <input type="text" id="city-input" class="input" placeholder="Digite o nome da cidade...">
+            <button id="search-btn">Buscar</button>
+        </div>
+
+        <div id="weather-info">
+            <h2 id="city-name">--</h2>
+            <p id="temp">--°C</p>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
